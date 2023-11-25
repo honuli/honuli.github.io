@@ -1,1 +1,1 @@
-Repo for [https://honuli.com] (https://honuli.com) 
+Repo for https://honuli.com
