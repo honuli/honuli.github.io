@@ -23,7 +23,7 @@ Here are the books published by **Honuli**. 📖
 
 ## Alphabet des Animaux
 
-This book will published be soon. Reach our by [email](mailto:kaulana.honu@gmail.com) if you have any request.
+This book will published be soon. Reach our by [email](mailto:kaulana.honu@gmail.com) 📧 if you have any request.
 
 ![Alphabet](/alphabet_cover.jpg)
 

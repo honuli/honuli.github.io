@@ -50,7 +50,7 @@ params:
   profileMode:
     enabled: true # needs to be explicitly set
     title: Honuli
-    subtitle: Book Publisher
+    subtitle: Book Creator
     imageUrl: "./logo.png"
     imageWidth: 260
     imageHeight: 260
