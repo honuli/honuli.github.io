@@ -61,10 +61,6 @@ params:
       url: "mailto:kaulana.honu@gmail.com"
     - name: twitter
       url: "https://twitter.com/honu_li"
-    - name: github
-      url: "https://github.com/honuli/"
-    - name: hackerrank
-      url: "https://www.hackerrank.com/profile/kaulana_honu"
 
   cover:
     hidden: true # hide everywhere but not in structured data
