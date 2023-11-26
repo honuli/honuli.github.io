@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Honuli</title>
+    <link>https://honuli.com/</link>
+    <description>Recent content on Honuli</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://honuli.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>https://honuli.com/about/</link>
+      <pubDate>Sun, 26 Nov 2023 14:00:00 +0000</pubDate>
+      
+      <guid>https://honuli.com/about/</guid>
+      <description>Honuli is a children&amp;rsquo;s book publisher. Our first book &amp;ldquo;Alphabet des Animaux&amp;rdquo; will be soon published.
+Books Alphabet des Animaux Embarquez pour un voyage captivant au royaume animal. De l&amp;rsquo;alligator acrobatique au zèbre qui zigzague, des illustrations vibrantes animent cette aventure bilingue pour les jeunes explorateurs.
+Embark on a captivating journey through the animal kingdom. From the acrobatic alligator to the zigzagging zebra, vibrant illustrations bring this bilingual adventure to life for young explorers.</description>
+    </item>
+    
+  </channel>
+</rss>
