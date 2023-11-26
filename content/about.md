@@ -19,17 +19,8 @@ ShowRssButtonInSectionTermList: false
 UseHugoToc: false
 ---
 
-Honuli is a children's book publisher. Our first book "Alphabet des Animaux" will be soon published.
-
-## Books
-
-### Alphabet des Animaux
-
-> Embarquez pour un voyage captivant au royaume animal. De l'alligator acrobatique au zèbre qui zigzague, des illustrations vibrantes animent cette aventure bilingue pour les jeunes explorateurs.
-
-> Embark on a captivating journey through the animal kingdom. From the acrobatic alligator to the zigzagging zebra, vibrant illustrations bring this bilingual adventure to life for young explorers. 
-
+**Honuli** comes from Hawaiian: "Honu" (turtle 🐢) and "Li'i" (little). We create books for children.
 
 ## Contact
 
-Please feel free to reach out by [email](mailto:kaulana.honu@gmail.com).
+You can reach out directly by [email](mailto:kaulana.honu@gmail.com) 📧.
