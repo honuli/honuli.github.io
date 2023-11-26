@@ -19,7 +19,7 @@ ShowRssButtonInSectionTermList: false
 UseHugoToc: false
 ---
 
-Here are the books published by **Honuli**. 📖
+Here are the books created by **Honuli**. 📖
 
 ## Alphabet des Animaux
 
