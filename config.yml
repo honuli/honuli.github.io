@@ -8,7 +8,7 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
-disableKinds: ["term", "taxonomy", "taxonomyTerm", "sitemap"]
+disableKinds: ["term", "taxonomy", "sitemap"]
 
 minify:
   disableXML: true
@@ -19,7 +19,7 @@ params:
   description: "Honuli"
   keywords: [Book, Blog]
   author: Honuli
-  DateFormat: "January 3, 2023"
+  DateFormat: "January 1, 2023"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
 
