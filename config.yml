@@ -1,0 +1,97 @@
+baseURL: https://honuli.com/
+languageCode: en-us
+title: Honuli
+theme: "PaperMod"
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+disableKinds: ["term", "taxonomy", "taxonomyTerm", "sitemap"]
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  title: Honuli
+  description: "Honuli"
+  keywords: [Book, Blog]
+  author: Honuli
+  DateFormat: "January 3, 2023"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  ShowReadingTime: false
+  ShowShareButtons: false
+  ShowPostNavLinks: false
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: false
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: false
+  UseHugoToc: false
+  disableSpecial1stPost: true
+  disableScrollToTop: false
+  comments: false
+  hidemeta: true
+  hideSummary: true
+  showtoc: false
+  tocopen: false
+
+  assets:
+    favicon: "./favicon.png"
+    favicon16x16: "./favicon.png"
+    favicon32x32: "./favicon.png"
+    apple_touch_icon: "./favicon.png"
+    safari_pinned_tab: "./favicon.png"
+
+  # profile-mode
+  profileMode:
+    enabled: true # needs to be explicitly set
+    title: Honuli
+    subtitle: Book Publisher
+    imageUrl: "./logo.png"
+    imageWidth: 260
+    imageHeight: 260
+    imageTitle: Honuli
+
+  socialIcons:
+    - name: email
+      url: "mailto:kaulana.honu@gmail.com"
+    - name: twitter
+      url: "https://twitter.com/honu_li"
+    - name: github
+      url: "https://github.com/honuli/"
+    - name: hackerrank
+      url: "https://www.hackerrank.com/profile/kaulana_honu"
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+menu:
+  main:
+    - identifier: about
+      name: about
+      url: about
+      weight: 10
+
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+pygmentsUseClasses: true
+markup:
+  highlight:
+    noClasses: false
+
+server:
+  headers:
+  - for: "/*"
+    values:
+      Content-Security-Policy: "default-src 'self' 'unsafe-eval' 'unsafe-inline' www.google-analytics.com avatars.githubusercontent.com;"
+      Access-Control-Allow-Origin: 'http://honuli.com'
+      X-Frame-Options: "DENY"
+      X-XSS-Protection: "1; mode=block"
+      X-Content-Type-Options: "nosniff"
+      Referrer-Policy: "strict-origin-when-cross-origin"
+      Strict-Transport-Security: "max-age=2592000; includeSubDomains; preload"
