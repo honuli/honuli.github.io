@@ -23,7 +23,7 @@ Here are the books 📖 created by **Honuli**.
 
 ## Alphabet des Animaux
 
-This French-English bilingual book will published be soon. Reach our by [email](mailto:kaulana.honu@gmail.com) 📧 if you have any request.
+This French-English bilingual book will be published soon. Reach out by [email](mailto:kaulana.honu@gmail.com) 📧 if you have any request.
 
 ![Alphabet](/alphabet_cover.jpg)
 
