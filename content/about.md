@@ -19,7 +19,9 @@ ShowRssButtonInSectionTermList: false
 UseHugoToc: false
 ---
 
-At Honuli, we are passionate about creating books for children. **Honuli** comes from Hawaiian: "Honu" (turtle 🐢) and "Li'i" (little). 
+**Honuli** comes from Hawaiian: "Honu" (turtle 🐢) and "Li'i" (little). 
+
+We are a team passionate about creating books for children to help them learn and grow.
 
 ## Contact
 
