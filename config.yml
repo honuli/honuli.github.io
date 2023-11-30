@@ -23,6 +23,7 @@ params:
   DateFormat: "January 1, 2023"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
+  env: production  # To enable google analytics
 
   ShowReadingTime: false
   ShowShareButtons: false
