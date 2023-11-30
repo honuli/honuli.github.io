@@ -23,14 +23,15 @@ Here are the books 📖 created by **Honuli**.
 
 ## Alphabet des Animaux
 
-This French-English bilingual book will be published soon. Reach out by [email](mailto:kaulana.honu@gmail.com) 📧 if you have any request.
+This French-English bilingual book will be published soon.
 
-![Alphabet](/alphabet_cover.jpg)
+![Alphabet](/alphabet_cover.jpg#center)
 
-### Résumé ![French](/French_flag.png)
+### Summary 
 
+![French](/French_flag.png)
 > Embarquez pour un voyage captivant au royaume animal. De l'alligator acrobatique au zèbre qui zigzague, des illustrations vibrantes animent cette aventure bilingue pour les jeunes explorateurs.
 
-### Summary ![English](/English_flag.png)
+![English](/English_flag.png)
 > Embark on a captivating journey through the animal kingdom. From the acrobatic alligator to the zigzagging zebra, vibrant illustrations bring this bilingual adventure to life for young explorers. 
 
