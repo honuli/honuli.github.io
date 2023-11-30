@@ -7,6 +7,7 @@ enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
+googleAnalytics: G-3EB29D9GT5
 
 disableKinds: [ "term", "taxonomy", "sitemap" ]
 
@@ -61,6 +62,10 @@ params:
       url: "mailto:kaulana.honu@gmail.com"
     - name: twitter
       url: "https://twitter.com/honu_li"
+
+  analytics:
+    google:
+      SiteVerificationTag: "XYZabc"
 
   cover:
     hidden: true # hide everywhere but not in structured data
