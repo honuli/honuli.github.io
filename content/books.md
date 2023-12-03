@@ -24,7 +24,7 @@ Here are the books 📖 created by **Honuli**.
 ## Alphabet des Animaux
 _Bilingual French-English Illustrated ABC Book_
 
-ISBN: [979-8-88940-295-4](https://www.bookwire.com/book/9798889402954--102982918)
+**ISBN**: [979-8-88940-295-4](https://www.bookwire.com/book/9798889402954--102982918)
 
 ![Alphabet](/alphabet_cover.jpg "Alphabet des Animaux")
 
