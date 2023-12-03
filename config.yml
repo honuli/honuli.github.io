@@ -18,12 +18,12 @@ minify:
 params:
   title: Honuli
   description: "Honuli"
-  keywords: [ Book, Blog ]
+  keywords: [ Book, Blog, French, Children, Francais ]
   author: Honuli
   DateFormat: "January 1, 2023"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
-  env: production  # To enable google analytics
+  env: production  # To enable Google Analytics
 
   ShowReadingTime: false
   ShowShareButtons: false

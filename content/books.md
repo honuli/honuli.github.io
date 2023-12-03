@@ -22,18 +22,17 @@ UseHugoToc: false
 Here are the books 📖 created by **Honuli**.
 
 ## Alphabet des Animaux
-
-Bilingual French-English Illustrated ABC Book
+_Bilingual French-English Illustrated ABC Book_
 
 ISBN: [979-8-88940-295-4](https://www.bookwire.com/book/9798889402954--102982918)
 
-![Alphabet](/alphabet_cover.jpg#center)
+![Alphabet](/alphabet_cover.jpg "Alphabet des Animaux")
 
 ### Summary 
 
-![French](/French_flag.png)
+![French](/French_flag.png "French")
 > Embarquez pour un voyage captivant au royaume animal. De l'alligator acrobatique au zèbre qui zigzague, des illustrations vibrantes animent cette aventure bilingue pour les jeunes explorateurs.
 
-![English](/English_flag.png)
+![English](/English_flag.png "English")
 > Embark on a captivating journey through the animal kingdom. From the acrobatic alligator to the zigzagging zebra, vibrant illustrations bring this bilingual adventure to life for young explorers. 
 
