@@ -18,7 +18,7 @@ minify:
 params:
   title: Honuli Books
   description: "Honuli - Book Creator for Children"
-  keywords: [ Book, Blog, French, Children, Francais ]
+  keywords: [ "Book", "Children", "French", "Francais", "Book Creator for Children", "Honuli" ]
   author: Honuli Books
   DateFormat: "January 1, 2023"
   defaultTheme: auto # dark, light
