@@ -16,10 +16,10 @@ minify:
   minifyOutput: true
 
 params:
-  title: Honuli
-  description: "Honuli"
+  title: Honuli Books
+  description: "Honuli - Book Creator for Children"
   keywords: [ Book, Blog, French, Children, Francais ]
-  author: Honuli
+  author: Honuli Books
   DateFormat: "January 1, 2023"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
@@ -51,12 +51,12 @@ params:
   # profile-mode
   profileMode:
     enabled: true # needs to be explicitly set
-    title: Honuli
+    title: Honuli Books
     subtitle: Book Creator for Children
     imageUrl: "./logo.png"
     imageWidth: 260
     imageHeight: 260
-    imageTitle: Honuli
+    imageTitle: Honuli - Book Creator for Children
 
   socialIcons:
     - name: email
