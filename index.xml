@@ -5,29 +5,26 @@
     <link>https://honuli.com/</link>
     <description>Recent content on Honuli</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://honuli.com/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <atom:link href="https://honuli.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
       <link>https://honuli.com/about/</link>
       <pubDate>Sun, 26 Nov 2023 14:00:00 +0000</pubDate>
-      
       <guid>https://honuli.com/about/</guid>
       <description>Honuli comes from Hawaiian: &amp;ldquo;Honu&amp;rdquo; (turtle 🐢) and &amp;ldquo;Li&amp;rsquo;i&amp;rdquo; (little).
 We are a team passionate about creating books for children to help them learn and grow.
 Contact You can reach out by email at kaulana.honu@gmail.com 📧.</description>
     </item>
-    
     <item>
       <title>Books</title>
       <link>https://honuli.com/books/</link>
       <pubDate>Sun, 26 Nov 2023 14:00:00 +0000</pubDate>
-      
       <guid>https://honuli.com/books/</guid>
       <description>Alphabet des Animaux , the latest book 📚 by Honuli, can be found here:
 On Amazon for more countries: UK , FR , AU , BR , CA , DE , ES , IN , IT , JP , MX , NL .
 Alphabet des Animaux Bilingual French-English Illustrated ABC Book
 Summary Embarquez pour un voyage captivant au royaume animal. De l&amp;rsquo;alligator acrobatique au zèbre qui zigzague, des illustrations vibrantes animent cette aventure bilingue pour les jeunes explorateurs.</description>
     </item>
-    
   </channel>
 </rss>
