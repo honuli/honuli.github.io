@@ -51,8 +51,8 @@ params:
   # profile-mode
   profileMode:
     enabled: true # needs to be explicitly set
-    title: Honuli Books
-    subtitle: Book Creator for Children
+    title: <a href="./books">Honuli Books<a/>
+    subtitle: <a href="./books">Book Creator for Children 📚<a/>
     imageUrl: "./logo.png"
     imageWidth: 260
     imageHeight: 260
