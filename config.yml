@@ -59,7 +59,7 @@ params:
     imageTitle: Honuli - Book Creator for Children
     buttons:
       - name: Amazon.com
-        url: "https://www.amazon.com/Alphabet-Animaux-Bilingual-French-English-Illustrated-ebook/dp/B0CPL2JVFQ"
+        url: "https://www.amazon.com/dp/B0CVBTK6Z8"
       - name: Google Play
         url: "https://play.google.com/store/books/details?id=B93mEAAAQBAJ"
 
