@@ -60,8 +60,8 @@ params:
     buttons:
       - name: Amazon.com
         url: "https://www.amazon.com/dp/B0CVBTK6Z8"
-      - name: Google Play
-        url: "https://play.google.com/store/books/details?id=B93mEAAAQBAJ"
+#      - name: Google Play
+#        url: "https://play.google.com/store/books/details?id=B93mEAAAQBAJ"
 
   socialIcons:
     - name: email
