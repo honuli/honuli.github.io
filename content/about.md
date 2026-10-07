@@ -25,4 +25,4 @@ We are a team passionate about creating books for children to help them learn an
 
 ## Contact
 
-You can reach out by email at [contact@honuli.com](mailto:contact@honuli.com).
+You can reach out by email at [contact@honuli.com](mailto:contact@honuli.com) 📧.
