@@ -25,4 +25,4 @@ We are a team passionate about creating books for children to help them learn an
 
 ## Contact
 
-You can reach out by email at [kaulana.honu@gmail.com](mailto:kaulana.honu@gmail.com) 📧.
+You can reach out by email at [contact@honuli.com](mailto:contact@honuli.com) 📧.
