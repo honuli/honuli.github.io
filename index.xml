@@ -1,58 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Honuli</title>
+    <title>Honuli Books</title>
     <link>https://honuli.com/</link>
-    <description>Recent content on Honuli</description>
+    <description>Recent content on Honuli Books</description>
+    <image>
+      <title>Honuli Books</title>
+      <url>https://honuli.com/logo.png</url>
+      <link>https://honuli.com/logo.png</link>
+    </image>
     <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 26 Nov 2023 14:00:00 +0000</lastBuildDate>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 12 Oct 2026 23:17:01 +0100</lastBuildDate>
     <atom:link href="https://honuli.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
       <link>https://honuli.com/about/</link>
       <pubDate>Sun, 26 Nov 2023 14:00:00 +0000</pubDate>
       <guid>https://honuli.com/about/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Honuli&lt;/strong&gt; comes from Hawaiian: &amp;ldquo;Honu&amp;rdquo; (turtle 🐢) and &amp;ldquo;Li&amp;rsquo;i&amp;rdquo; (little).&lt;/p&gt;
-&lt;p&gt;We are a team passionate about creating books for children to help them learn and grow.&lt;/p&gt;
-&lt;h2 id=&#34;contact&#34;&gt;Contact&lt;/h2&gt;
-&lt;p&gt;You can reach out by email at &lt;a href=&#34;mailto:contact@honuli.com&#34;&gt;contact@honuli.com&lt;/a&gt;
-.&lt;/p&gt;</description>
+      <description>Honuli Books is a team passionate about creating books that help children learn and grow. Honuli means little turtle in Hawaiian.</description>
     </item>
     <item>
-      <title>Books</title>
+      <title>Bilingual French-English Children&#39;s Books</title>
       <link>https://honuli.com/books/</link>
       <pubDate>Sun, 26 Nov 2023 14:00:00 +0000</pubDate>
       <guid>https://honuli.com/books/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;#alphabet-des-animaux&#34;&gt;Alphabet des Animaux&lt;/a&gt;
-, the latest book 📚 by &lt;strong&gt;Honuli&lt;/strong&gt;, can be found on &lt;a href=&#34;https://www.amazon.com/dp/B0CVBTK6Z8&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;amazon.com&lt;/a&gt;
-:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.amazon.com/dp/B0CVBTK6Z8&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img alt=&#34;Amazon&#34; loading=&#34;lazy&#34; src=&#34;https://honuli.com/buy-on-amazon.png&#34; title=&#34;Buy on Amazon US&#34;&gt;&lt;/a&gt;
-&lt;/p&gt;
-&lt;p&gt;For more countries: &lt;a href=&#34;https://www.amazon.co.uk/dp/B0CVBTK6Z8&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UK&lt;/a&gt;
-, &lt;a href=&#34;https://www.amazon.fr/dp/B0CVBTK6Z8&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;France&lt;/a&gt;
-, &lt;a href=&#34;https://www.amazon.com.au/dp/B0CVBTK6Z8&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Australia&lt;/a&gt;
-, &lt;a href=&#34;https://www.amazon.com.br/dp/B0CPL2JVFQ&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Brazil&lt;/a&gt;
-, &lt;a href=&#34;https://www.amazon.ca/dp/B0CVBTK6Z8&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Canada&lt;/a&gt;
-, &lt;a href=&#34;https://www.amazon.de/dp/B0CVBTK6Z8&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Germany&lt;/a&gt;
-, &lt;a href=&#34;https://www.amazon.in/dp/B0CPL2JVFQ&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;India&lt;/a&gt;
-, &lt;a href=&#34;https://www.amazon.it/dp/B0CVBTK6Z8&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Italy&lt;/a&gt;
-, &lt;a href=&#34;https://www.amazon.co.jp/dp/B0CVBTK6Z8&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Japan&lt;/a&gt;
-, &lt;a href=&#34;https://www.amazon.com.mx/dp/B0CVBTK6Z8&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mexico&lt;/a&gt;
-, &lt;a href=&#34;https://www.amazon.nl/dp/B0CVBTK6Z8&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Netherlands&lt;/a&gt;
-, &lt;a href=&#34;https://www.amazon.pl/dp/B0CVBTK6Z8&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Poland&lt;/a&gt;
-, &lt;a href=&#34;https://www.amazon.es/dp/B0CVBTK6Z8&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Spain&lt;/a&gt;
-, &lt;a href=&#34;https://www.amazon.se/dp/B0CVBTK6Z8&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sweeden&lt;/a&gt;
-.&lt;/p&gt;
-&lt;h2 id=&#34;alphabet-des-animaux&#34;&gt;Alphabet des Animaux&lt;/h2&gt;
-&lt;p&gt;&lt;em&gt;Bilingual French-English Illustrated ABC Book&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;Alphabet&#34; loading=&#34;lazy&#34; src=&#34;https://honuli.com/alphabet_cover.jpg&#34; title=&#34;Alphabet des Animaux&#34;&gt;&lt;/p&gt;
-&lt;h3 id=&#34;summary&#34;&gt;Summary&lt;/h3&gt;
-&lt;p&gt;&lt;img alt=&#34;French&#34; loading=&#34;lazy&#34; src=&#34;https://honuli.com/French_flag.png&#34; title=&#34;French&#34;&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Embarquez pour un voyage captivant au royaume animal. De l&amp;rsquo;alligator acrobatique au zèbre qui zigzague, des
-illustrations vibrantes animent cette aventure bilingue pour les jeunes explorateurs.&lt;/p&gt;
-&lt;/blockquote&gt;</description>
+      <description>Alphabet des Animaux is a bilingual French-English illustrated ABC book for children by Honuli Books, in paperback and eBook. Find it on Amazon worldwide.</description>
     </item>
   </channel>
 </rss>
