@@ -1,0 +1,9 @@
+/* Keep aspect ratio now that content images carry width/height attributes */
+.post-content img {
+    height: auto;
+}
+
+/* Front matter descriptions are for search engines and social cards only */
+.post-description {
+    display: none;
+}

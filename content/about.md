@@ -1,7 +1,7 @@
 ---
 title: "About"
 date: 2023-11-26T14:00:00+00:00
-description: ""
+description: "Honuli Books is a team passionate about creating books that help children learn and grow. Honuli means little turtle in Hawaiian."
 showToc: false
 TocOpen: false
 draft: false

@@ -1,15 +1,16 @@
 baseURL: https://honuli.com/
-languageCode: en-us
-title: Honuli
+languageCode: en-US
+title: Honuli Books
 theme: "PaperMod"
 
 enableRobotsTXT: true
+enableGitInfo: true # sitemap lastmod from git history
 buildDrafts: false
 buildFuture: false
 buildExpired: false
 googleAnalytics: G-3EB29D9GT5
 
-disableKinds: [ "term", "taxonomy", "sitemap" ]
+disableKinds: [ "term", "taxonomy" ]
 
 minify:
   disableXML: true
@@ -17,14 +18,16 @@ minify:
 
 params:
   title: Honuli Books
-  description: "Honuli - Book Creator for Children"
+  description: "Honuli Books creates bilingual French-English picture books for children, including the illustrated animal ABC book Alphabet des Animaux."
   keywords: [ "Book", "Children", "French", "Francais", "Book Creator for Children", "Honuli" ]
   author: Honuli Books
   DateFormat: "January 1, 2023"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
   env: production  # To enable Google Analytics
-  social: true
+  social:
+    twitter: honu_li
+  images: [ "/logo.png" ] # default image for social sharing
 
   ShowReadingTime: false
   ShowShareButtons: false
@@ -52,9 +55,9 @@ params:
   # profile-mode
   profileMode:
     enabled: true # needs to be explicitly set
-    title: <a href="./books">Honuli Books<a/>
-    subtitle: <a href="./books">Book Creator for Children 📚<a/>
-    imageUrl: "./logo.png"
+    title: <a href="/books/">Honuli Books</a>
+    subtitle: <a href="/books/">Book Creator for Children 📚</a>
+    imageUrl: "/logo-520.webp"
     imageWidth: 260
     imageHeight: 260
     imageTitle: Honuli - Book Creator for Children
@@ -67,12 +70,8 @@ params:
   socialIcons:
     - name: email
       url: "mailto:contact@honuli.com"
-    - name: twitter
-      url: "https://twitter.com/honu_li"
-
-  analytics:
-    google:
-      SiteVerificationTag: "XYZabc"
+    - name: x
+      url: "https://x.com/honu_li"
 
   cover:
     hidden: true # hide everywhere but not in structured data
@@ -83,11 +82,11 @@ menu:
   main:
     - identifier: books
       name: Books
-      url: books
+      url: /books/
       weight: 10
     - identifier: about
       name: About
-      url: about
+      url: /about/
       weight: 20
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
@@ -99,6 +98,9 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+    parser:
+      attribute:
+        block: true # e.g. {lang="fr"} on a blockquote
 server:
   headers:
     - for: "/*"

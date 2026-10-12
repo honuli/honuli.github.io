@@ -1,0 +1,67 @@
+{{- /* Overrides PaperMod's schema: Organization + WebSite on home, WebPage + BreadcrumbList on pages, Book for front matter `books` */ -}}
+{{- $sameAs := slice }}
+{{- range site.Params.socialIcons }}
+  {{- if strings.HasPrefix .url "http" }}{{ $sameAs = $sameAs | append .url }}{{ end }}
+{{- end }}
+{{- $org := dict
+  "@type" "Organization"
+  "@id" (printf "%s#organization" site.Home.Permalink)
+  "name" site.Title
+  "url" site.Home.Permalink
+  "logo" ("logo.png" | absURL)
+  "email" "contact@honuli.com"
+  "sameAs" $sameAs }}
+{{- $orgRef := dict "@id" (index $org "@id") }}
+{{- $siteRef := dict "@id" (printf "%s#website" site.Home.Permalink) }}
+{{- $graph := slice }}
+{{- if .IsHome }}
+  {{- $graph = $graph | append (merge $org (dict "description" site.Params.description)) }}
+  {{- $graph = $graph | append (dict
+    "@type" "WebSite"
+    "@id" (index $siteRef "@id")
+    "name" site.Title
+    "url" site.Home.Permalink
+    "description" site.Params.description
+    "inLanguage" site.Language.Lang
+    "publisher" $orgRef) }}
+{{- else if .IsPage }}
+  {{- $graph = $graph | append (dict
+    "@type" "WebPage"
+    "@id" .Permalink
+    "url" .Permalink
+    "name" .Title
+    "description" (.Description | default (.Summary | plainify))
+    "inLanguage" site.Language.Lang
+    "isPartOf" $siteRef
+    "publisher" $orgRef) }}
+  {{- $graph = $graph | append (dict
+    "@type" "BreadcrumbList"
+    "itemListElement" (slice
+      (dict "@type" "ListItem" "position" 1 "name" site.Title "item" site.Home.Permalink)
+      (dict "@type" "ListItem" "position" 2 "name" .Title "item" .Permalink))) }}
+  {{- range .Params.books }}
+    {{- $editions := slice }}
+    {{- range .editions }}
+      {{- $editions = $editions | append (dict
+        "@type" "Book"
+        "bookFormat" (printf "https://schema.org/%s" .format)
+        "isbn" .isbn) }}
+    {{- end }}
+    {{- $graph = $graph | append (dict
+      "@type" "Book"
+      "@id" (printf "%s#%s" $.Permalink .anchor)
+      "url" (printf "%s#%s" $.Permalink .anchor)
+      "name" .name
+      "description" .description
+      "image" (.image | absURL)
+      "inLanguage" .languages
+      "genre" .genre
+      "author" (dict "@type" "Person" "name" .author)
+      "publisher" $orgRef
+      "sameAs" .sameAs
+      "workExample" $editions) }}
+  {{- end }}
+{{- end }}
+{{- with $graph }}
+<script type="application/ld+json">{{ dict "@context" "https://schema.org" "@graph" . | jsonify | safeJS }}</script>
+{{- end }}
